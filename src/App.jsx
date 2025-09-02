@@ -31,7 +31,7 @@ export default function App() {
           {/* BRAND: image only (served from public/img/KtechAI.png) */}
           <a href="#home" className="shrink-0" aria-label="KtechAI home">
             <img
-              src="/img/KtechAI.png?v=1"   // absolute path from public/ (+cache-bust)
+              src={`${import.meta.env.BASE_URL}img/KtechAI.png`}   // absolute path from public/ (+cache-bust)
               alt="KtechAI"
               width={140}
               height={40}
