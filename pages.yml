@@ -1,4 +1,4 @@
-name: Deploy Vite site to GitHub Pages
+name: Deploy Vite site
 
 on:
   push:
@@ -38,3 +38,4 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
